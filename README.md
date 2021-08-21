@@ -1,6 +1,9 @@
 # fake-climate-tweet-bert-classify
 Using BERT language model to classify fake climate change tweets. Natural Language Processing subject from UniMelb
 
+<br>
+<br>
+
 For implementation
 1. Extract the zip files
 
@@ -27,8 +30,11 @@ Lastly
 4. Run the file "not_misinformation_preprocessing.py" to (re)create the file "train_not_misinfo"
 
 5. Run the file "training.py" with input parameter 0 for begin training anew, another number other than 0 to continue training
+   <br>
    e.g.: "python training.py 0" -> training anew
+   <br>
    e.g.: "python training.py 1" -> continue training
+   <br>
    The output model or weight will be putting in /outputs/ folder in the same directory, the output models will consume a huge storage capacity
 
 6. Run the file "predicting.py" to get the predictions from "test-unlabelled.json -> test-output.json" and "dev.json -> dev-output.json "
@@ -39,11 +45,15 @@ Lastly
 
 
 Specs was use for this implementation:
+<br>
 CPU: Intel Core I7-9750H - GPU: NVIDIA RTX-2070
+<br>
 OS: Windows 10 Home
-Anaconda 4.8.3
-Python 3.7.3
+<br>
+Anaconda 4.8.3, Python 3.7.3
+<br>
 CUDA cuda_10.1.105_418.96_win10
+<br>
 cuDNN cudnn-10.1-windows10-x64-v7.6.5.32
 
 END
